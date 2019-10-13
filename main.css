@@ -1,0 +1,171 @@
+:root {
+    --darktext: #343434;
+    --lighttext: #f4f4f4;
+    --lightbg: #f4f4f4;
+    --bluebg: #428bca;
+    --footerbg: #708090;
+}
+
+body {
+    background: #f4f4f4;
+    color: var(--lighttext);
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--lighttext);
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+body p {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img {
+    background-image: url("images/trainers.jpg");
+    background-repeat: no-repeat;
+    background-size: 1170px 500px;
+    height: 500px;
+}
+
+.layover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(10, 15, 200, 0.3);
+}
+
+.icons {
+    font-size: 25px;
+}
+
+.name {
+    width: 200px;
+    color: var(--lighttext);
+    padding: 20px 20px;
+}
+
+.cta {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20 0;
+}
+
+.services {
+    color: var(--darktext);
+    text-align: center;
+    padding: 35px;
+    background: var(--lightbg);
+}
+
+.services .service-row {
+    padding-top: 20px;
+    margin: 10px 10px;
+    border: #343434 solid 1px;
+    border-radius: 12px;
+    background: var(--bluebg);
+    -webkit-box-shadow: 5px 10px 18px #000000;
+    box-shadow: 5px 10px 18px #000000;
+    color: var(--lighttext);
+}
+
+.services .service-row h4 {
+    padding: 10px 0;
+}
+
+.services .service-row h5 {
+    padding: 10px 0;
+}
+
+.services .service-row .icon {
+    font-size: 40px;
+}
+
+.info {
+    text-align: center;
+    background: var(--bluebg);
+    padding: 20px 12px;
+    color: var(--lighttext);
+}
+
+.testermonial {
+    text-align: center;
+    background: var(--bluebg);
+    padding: 30px 0;
+}
+
+.testermonial .fa-star {
+    color: #D4AF37;
+}
+
+.testermonial img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.test-text {
+    width: 30%;
+    margin: auto;
+}
+
+.contact {
+    padding: 20px 0 0 0;
+    color: var(--darktext);
+    text-align: center;
+}
+
+.contact form {
+    width: 40%;
+    margin: auto;
+    text-align: left;
+}
+
+.contact form p {
+    font-size: 15px;
+}
+
+.pgbtm {
+    background: var(--footerbg);
+    margin-top: 20px;
+}
+
+.footer-info {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.contact-icon {
+    font-size: 30px;
+}
+
+.footer-icon {
+    font-size: 35px;
+}
+
+
+/* media */
+
+@media (max-width:600px) {
+    .cta {
+        width: 100%;
+        margin-top: 10%;
+        padding-bottom: 20px;
+    }
+    .test-text {
+        width: 200px;
+    }
+}
+
+
+/*# sourceMappingURL=main.css.map */
